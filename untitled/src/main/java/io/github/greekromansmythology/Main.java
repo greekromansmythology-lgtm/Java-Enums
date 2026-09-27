@@ -4,11 +4,6 @@ package io.github.greekromansmythology;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Address duthieAddress = new Address(
-                "222 Eastern Parkway",
-                "Louisville",
-                "Kentucky",
-                "40208"
-        )
-        }
+        System.out.println(Buildings.DUTHIE.getAddress().street());
     }
+}
